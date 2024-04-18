@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import './App.css';
 import ClassLifeCycle from './ClassLifeCycle';
+import FunctionLifeCycle from './FunctionLifeCycle'
 
 
 function App() {
@@ -16,20 +17,11 @@ function App() {
 
       <hr />
 
-      {/* <div>
+      <div>
         <FunctionLifeCycle></FunctionLifeCycle>
 
       </div>
-      <hr /> */}
-{/* 
-      <Example/>
-      <hr /> */}
-      {/* <Example2/> */}
 
-      {/* <Example3></Example3> */}
-      {/* <hr /> */}
-      {/* <Example4 /> */}
-      {/* <Example5></Example5> */}
     </>
   );
 }
